@@ -45,4 +45,4 @@ Thumbs.db
 
 #used files
 chromedriver.exe
-script/data/*
+scripts/data/*
