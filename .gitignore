@@ -51,3 +51,4 @@ frontend/node_modules
 frontend/dist
 frontend/tmp
 frontend/out-tsc
+frontend/package-lock.json
