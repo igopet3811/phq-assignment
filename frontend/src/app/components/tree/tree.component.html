@@ -1,0 +1,18 @@
+<div>
+
+    <form class="filter-form">
+        <mat-form-field class="full-width">
+        <input type="text" placeholder="Min lenght to trigger autocomplete is {{minLength}}" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+        <mat-autocomplete #auto="matAutocomplete" autocompleteDisabled [displayWith]="displayFn">
+            <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+            {{option.text}} ({{option.id}})
+            </mat-option>
+        </mat-autocomplete>
+        </mat-form-field>
+        <button mat-raised-button color="primary" (click)="onButtonClick()">Search Tree</button>
+    </form>
+    
+    <div class="graph">
+    </div>
+
+</div>

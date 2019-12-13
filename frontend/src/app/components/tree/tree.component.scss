@@ -1,0 +1,35 @@
+.filter-form {
+    margin: 10px;
+}
+
+.node {
+    cursor: pointer;
+}
+
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+.found {
+    fill: #ff4136;
+    stroke: #ff4136;
+}
+.node text {
+    font: 10px sans-serif;
+}
+
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
+.search {
+  width: 100%;
+}
+
+.full-width {
+    width: 300px;
+    margin: 0px 10px 10px 10px;
+}

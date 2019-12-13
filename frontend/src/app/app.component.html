@@ -1,0 +1,27 @@
+<mat-sidenav-container>
+    <mat-sidenav-content>
+      <mat-toolbar color="primary">
+    <div>assignment_phq</div>
+      </mat-toolbar>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+
+<mat-tab-group [@.disabled]="true">
+
+    <mat-tab *ngIf="!!data">
+        <ng-template mat-tab-label>
+            <mat-icon class="tab-icon">account_tree</mat-icon>
+            Tree Data Vis
+        </ng-template>
+        <ng-template matTabContent>
+            <app-tree [data]="data"></app-tree>
+        </ng-template>
+    </mat-tab>
+
+</mat-tab-group>
+
+<main>
+    <router-outlet>
+      <span *ngIf="showLoader" class="loading"></span>
+    </router-outlet>
+</main>

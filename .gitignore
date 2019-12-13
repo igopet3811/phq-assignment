@@ -47,3 +47,7 @@ Thumbs.db
 chromedriver.exe
 /scripts/data/*
 *.txt
+frontend/node_modules
+frontend/dist
+frontend/tmp
+frontend/out-tsc
