@@ -1,0 +1,1 @@
+CREATE DATABASE phq WITH OWNER = postgres;
