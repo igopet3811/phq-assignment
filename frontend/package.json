@@ -21,8 +21,8 @@
     "@angular/platform-browser": "^11.2.14",
     "@angular/platform-browser-dynamic": "^11.2.14",
     "@angular/router": "^11.2.14",
-    "@swimlane/ngx-charts": "^16.0.0",
-    "d3": "^5.14.2",
+    "@swimlane/ngx-charts": "^20.4.1",
+    "d3": "^7.8.5",
     "rxjs": "^6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "^0.10.3"
